@@ -25,7 +25,7 @@ export default function PortraitMoment() {
           Meet Davante
         </p>
         <h2 className="mt-4 font-display text-4xl font-bold uppercase leading-tight text-white sm:text-6xl">
-          The agent who never stops working for you.
+          Sed ut perspiciatis unde omnis iste natus.
         </h2>
       </Reveal>
     </section>

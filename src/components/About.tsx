@@ -25,14 +25,13 @@ export default function About() {
 
           <p className="mt-8 max-w-md text-base leading-relaxed text-stone">
             {/* TODO: replace with real bio once brokerage/team details are finalized */}
-            I&apos;m a Dallas-Fort Worth real estate agent focused on one
-            thing: getting my clients the best possible outcome, whether
-            that&apos;s buying, selling, or investing. No fluff, no pressure —
-            just clear guidance and hard work on your behalf.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua ut
+            enim ad minim veniam quis nostrud exercitation ullamco laboris.
           </p>
           <p className="mt-4 max-w-md text-base leading-relaxed text-stone">
-            I know this market block by block, and I treat every deal like
-            it&apos;s the only one I&apos;m working.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse
+            cillum dolore eu fugiat nulla pariatur excepteur sint occaecat.
           </p>
 
           <div className="mt-9 flex flex-wrap gap-4">

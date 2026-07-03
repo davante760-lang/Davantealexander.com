@@ -4,19 +4,19 @@ const services = [
   {
     title: "Buyers",
     description:
-      "From first-time buyers to move-up families, I find homes that fit your life and negotiate terms that protect you.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.",
     points: ["Off-market access", "Local market strategy", "Skilled negotiation"],
   },
   {
     title: "Sellers",
     description:
-      "A pricing and marketing strategy built to sell fast, at top dollar, without the stress of guessing.",
+      "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.",
     points: ["Pricing strategy", "Pro photography & staging", "Multi-channel marketing"],
   },
   {
     title: "Investors",
     description:
-      "Cash flow, appreciation, and exit strategy — I help investors build a DFW portfolio that actually performs.",
+      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     points: ["Deal analysis", "Rental market insight", "Portfolio growth"],
   },
 ];
@@ -30,7 +30,7 @@ export default function Services() {
             How I Help
           </p>
           <h2 className="mt-3 max-w-xl font-serif text-3xl font-semibold sm:text-4xl">
-            Whatever side of the deal you&apos;re on, I&apos;ve got you covered.
+            Lorem ipsum dolor sit amet consectetur adipiscing elit.
           </h2>
         </Reveal>
 

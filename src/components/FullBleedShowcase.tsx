@@ -21,7 +21,7 @@ export default function FullBleedShowcase() {
           Signature Listings
         </p>
         <h2 className="mt-3 max-w-2xl font-display text-5xl font-bold uppercase leading-[0.95] text-white sm:text-7xl">
-          Homes worth <span className="text-gold-light">bragging about.</span>
+          Lorem ipsum <span className="text-gold-light">dolor sit amet.</span>
         </h2>
       </Reveal>
     </section>

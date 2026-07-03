@@ -4,7 +4,9 @@ import Reveal from "@/components/Reveal";
 // TODO: replace placeholder counter values with real production numbers
 const stats = [
   { kind: "counter" as const, value: 150, suffix: "+", label: "Homes Closed" },
+  { kind: "counter" as const, value: 210, suffix: "M", prefix: "$", label: "Sales Volume" },
   { kind: "counter" as const, value: 21, label: "Avg. Days on Market" },
+  { kind: "counter" as const, value: 500, suffix: "+", label: "Happy Clients" },
   { kind: "counter" as const, value: 5, decimals: 1, suffix: "★", label: "Client Rating" },
   { kind: "static" as const, value: "DFW", label: "Metroplex Coverage" },
 ];
@@ -22,14 +24,15 @@ export default function StatsSection() {
           </p>
         </div>
 
-        <div className="grid flex-1 grid-cols-2 border-l border-white/10 lg:grid-cols-4">
+        <div className="grid flex-1 grid-cols-2 border-l border-white/10 lg:grid-cols-3">
           {stats.map((stat, i) => (
             <Reveal key={stat.label} delay={i * 0.1}>
-              <div className="flex h-full flex-col justify-center border-b border-r border-white/10 px-6 py-14 sm:px-8 sm:py-20">
-                <div className="font-display text-4xl font-bold text-white sm:text-5xl">
+              <div className="flex h-full flex-col justify-center border-b border-r border-white/10 px-6 py-14 sm:px-8 sm:py-16">
+                <div className="font-display text-6xl font-semibold tracking-wide text-white sm:text-7xl lg:text-8xl">
                   {stat.kind === "counter" ? (
                     <Counter
                       value={stat.value}
+                      prefix={stat.prefix}
                       suffix={stat.suffix}
                       decimals={stat.decimals}
                     />
@@ -37,7 +40,7 @@ export default function StatsSection() {
                     stat.value
                   )}
                 </div>
-                <p className="mt-3 text-xs uppercase tracking-wider text-white/50">
+                <p className="mt-4 text-xs uppercase tracking-wider text-white/50">
                   {stat.label}
                 </p>
               </div>

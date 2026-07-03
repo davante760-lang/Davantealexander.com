@@ -9,25 +9,25 @@ import Reveal from "@/components/Reveal";
 const testimonials = [
   {
     quote:
-      "Davante made the whole process painless. We closed faster than we thought possible and got more than asking.",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore.",
     name: "Client Name",
     detail: "Buyer — Dallas, TX",
   },
   {
     quote:
-      "Honest, responsive, and knew our neighborhood better than we did. Couldn't recommend more.",
+      "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     name: "Client Name",
     detail: "Seller — Fort Worth, TX",
   },
   {
     quote:
-      "As an out-of-state investor, I needed someone I could trust on the ground. Davante delivered every time.",
+      "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
     name: "Client Name",
     detail: "Investor — Frisco, TX",
   },
   {
     quote:
-      "Responsive at every hour, sharp on pricing, and negotiated terms I didn't think were possible.",
+      "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est.",
     name: "Client Name",
     detail: "Buyer — Plano, TX",
   },
@@ -60,7 +60,7 @@ export default function Testimonials() {
             Client Reviews
           </p>
           <h2 className="mt-3 max-w-xl font-serif text-3xl font-semibold sm:text-4xl">
-            Don&apos;t just take my word for it.
+            Sed ut perspiciatis unde omnis iste.
           </h2>
         </Reveal>
 

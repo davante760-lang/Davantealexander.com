@@ -16,11 +16,11 @@ export default function ListingsSection() {
                 Featured Listings
               </p>
               <h2 className="mt-3 font-serif text-3xl font-semibold sm:text-4xl">
-                Homes across the Metroplex
+                Lorem ipsum dolor sit amet consectetur.
               </h2>
               <p className="mt-4 max-w-md text-sm text-stone">
-                Sample listings shown below. Live MLS/IDX search connects here
-                once an IDX provider is set up.
+                {/* Sample listings — live MLS/IDX search connects here once an IDX provider is set up. */}
+                Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
               </p>
             </div>
 

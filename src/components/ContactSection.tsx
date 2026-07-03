@@ -10,11 +10,11 @@ export default function ContactSection() {
             Let&apos;s Talk
           </p>
           <h2 className="mt-3 font-serif text-3xl font-semibold sm:text-4xl">
-            Ready to make your move in DFW?
+            Consectetur adipiscing elit sed do eiusmod?
           </h2>
           <p className="mt-6 max-w-md text-base leading-relaxed text-stone">
-            Tell me a little about what you&apos;re looking to do, and
-            I&apos;ll follow up personally — no automated scripts, no runaround.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
 
           <div className="mt-8 space-y-2 text-sm text-stone">

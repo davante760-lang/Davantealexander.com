@@ -51,10 +51,9 @@ export default function Footer() {
         <Reveal delay={0.2}>
           {/* TODO: replace with real, brokerage-approved neighborhood/SEO copy */}
           <p className="mx-auto mt-10 max-w-2xl text-sm leading-relaxed text-white/50">
-            Serving buyers, sellers, and investors across the Dallas-Fort
-            Worth metroplex — including Dallas, Fort Worth, Plano, Frisco,
-            and Arlington. Wherever you&apos;re moving in DFW, I&apos;m
-            ready to help you get there.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua ut
+            enim ad minim veniam quis nostrud exercitation ullamco laboris.
           </p>
         </Reveal>
 

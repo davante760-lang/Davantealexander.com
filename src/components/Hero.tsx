@@ -38,16 +38,16 @@ export default function Hero() {
 
         <Reveal delay={0.1}>
           <h1 className="mt-6 max-w-3xl font-serif text-4xl font-semibold leading-[1.1] text-balance sm:text-6xl">
-            Move through DFW real estate like you{" "}
-            <span className="italic text-gold-light">own the market.</span>
+            Lorem ipsum dolor sit amet{" "}
+            <span className="italic text-gold-light">consectetur adipiscing elit.</span>
           </h1>
         </Reveal>
 
         <Reveal delay={0.2}>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/70">
-            I help buyers, sellers, and investors across Dallas-Fort Worth close
-            with confidence — sharp negotiation, real local knowledge, and zero
-            guesswork.
+            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua,
+            ut enim ad minim veniam quis nostrud exercitation ullamco laboris
+            nisi ut aliquip ex ea commodo consequat.
           </p>
         </Reveal>
 
