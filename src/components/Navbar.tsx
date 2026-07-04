@@ -5,6 +5,7 @@ import Link from "next/link";
 
 const links = [
   { href: "#listings", label: "Listings" },
+  { href: "/neighborhoods", label: "Neighborhoods" },
   { href: "#buyers-sellers", label: "Buyers & Sellers" },
   { href: "#about", label: "About" },
   { href: "#testimonials", label: "Reviews" },
@@ -28,7 +29,7 @@ export default function Navbar() {
           </span>
         </Link>
 
-        <ul className="hidden items-center gap-8 font-display text-[15px] font-medium uppercase tracking-[0.34em] text-white/80 md:flex">
+        <ul className="hidden items-center gap-5 font-display text-[15px] font-medium uppercase tracking-[0.2em] text-white/80 xl:flex">
           {links.map((link) => (
             <li key={link.href}>
               <a href={link.href} className="transition-colors hover:text-white">
@@ -51,7 +52,7 @@ export default function Navbar() {
             onClick={() => setOpen((v) => !v)}
             aria-label="Toggle menu"
             aria-expanded={open}
-            className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 text-white md:hidden"
+            className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 text-white xl:hidden"
           >
             <span className="sr-only">Menu</span>
             {open ? (
@@ -68,7 +69,7 @@ export default function Navbar() {
       </nav>
 
       {open && (
-        <div className="border-t border-white/10 bg-ink md:hidden">
+        <div className="border-t border-white/10 bg-ink xl:hidden">
           <ul className="mx-auto flex max-w-6xl flex-col gap-1 px-6 py-4 font-display text-sm font-medium uppercase tracking-[0.25em] text-white/80">
             {links.map((link) => (
               <li key={link.href}>
