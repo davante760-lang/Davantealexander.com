@@ -42,3 +42,37 @@ body {
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
+
+/* Drifting cloud layer used by the DFW neighborhood map */
+@keyframes cloud-drift-1 {
+  0% { transform: translateX(0) translateY(0); }
+  50% { transform: translateX(6%) translateY(2%); }
+  100% { transform: translateX(0) translateY(0); }
+}
+@keyframes cloud-drift-2 {
+  0% { transform: translateX(0) translateY(0); }
+  50% { transform: translateX(-8%) translateY(-3%); }
+  100% { transform: translateX(0) translateY(0); }
+}
+@keyframes cloud-drift-3 {
+  0% { transform: translateX(0) translateY(0); }
+  50% { transform: translateX(5%) translateY(-2%); }
+  100% { transform: translateX(0) translateY(0); }
+}
+.animate-cloud-drift-1 {
+  animation: cloud-drift-1 42s ease-in-out infinite;
+}
+.animate-cloud-drift-2 {
+  animation: cloud-drift-2 55s ease-in-out infinite;
+}
+.animate-cloud-drift-3 {
+  animation: cloud-drift-3 48s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-cloud-drift-1,
+  .animate-cloud-drift-2,
+  .animate-cloud-drift-3 {
+    animation: none;
+  }
+}

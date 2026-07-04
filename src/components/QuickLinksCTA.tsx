@@ -35,7 +35,7 @@ const links = [
   },
   {
     label: "Neighborhoods",
-    href: "#about",
+    href: "/neighborhoods",
     icon: (
       <>
         <path d="M12 2 2 21h20L12 2Z" />
